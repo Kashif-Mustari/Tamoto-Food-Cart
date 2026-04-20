@@ -20,7 +20,6 @@ const FoodDisplay = ({category}) => {
 
                 }
                 return null;
-                
             })}
         </div>
       
