@@ -19,16 +19,14 @@ const Footer = () => {
         <div className="footer-content-center">
           <h2>COMPANY</h2>
           <ul>
-            <ui>
-              <li>Home</li>
-              <li>About us</li>
-              <li>Delivery</li>
-              <li>Privacy policy</li>
-            </ui>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Delivery</li>
+            <li>Privacy policy</li>
           </ul>
         </div>
         <div className="footer-content-right">
-          <h2>GET IN TUCH</h2>
+          <h2>GET IN TOUCH</h2>
           <ul>
             <li>+8801998660758</li>
             <li>kashifmustari@gmail.com</li>
@@ -36,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="footer-coppyright">Copyright 2024 Tomato.com-All Right Reserved</p>
+      <p className="footer-copyright">Copyright 2024 GreatStack-All Right Reserved</p>
     </div>
   )
 }
