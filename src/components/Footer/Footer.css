@@ -40,3 +40,13 @@
   background-color: grey;
   border: none;
 }
+@media (max-width: 700px){
+  .footer-content {
+    flex-direction: column;
+    display: flex;
+    gap: 35px;
+  }
+  .footer-copyright{
+    text-align: center;
+  }
+}
