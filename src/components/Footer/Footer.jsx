@@ -34,7 +34,12 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 GreatStack-All Right Reserved</p>
+      <div className="footer-bottom">
+        <p className="footer-copyright">©️ Copyright 2024 GreatStack-All Right Reserved</p>
+        <p className="footer-developed">
+          Developed by <a href="https://github.com/Kashif-Mustari" target="_blank" rel="noreferrer">GitLink Production</a>
+        </p>
+      </div>
     </div>
   )
 }

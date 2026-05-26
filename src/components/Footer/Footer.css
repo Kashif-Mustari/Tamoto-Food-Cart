@@ -40,13 +40,47 @@
   background-color: grey;
   border: none;
 }
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.footer-copyright {
+  margin: 0;
+  font-size: 12px;
+  text-align: left;
+}
+.footer-developed {
+  margin: 0;
+  font-size: 12px;
+  color: #bdbdbd;
+  text-align: right;
+}
+.footer-developed a {
+  color: tomato;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer-developed a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 700px){
   .footer-content {
     flex-direction: column;
     display: flex;
     gap: 35px;
   }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
   .footer-copyright{
-    text-align: center;
+    text-align: left;
+  }
+  .footer-developed {
+    text-align: left;
   }
 }
